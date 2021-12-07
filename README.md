@@ -2,9 +2,7 @@
 
 This repository is the official implementation of "Relational Self-Attention: What's Missing in Attention for Video Understanding" by Manjin Kim*, Heeseung Kwon*, Chunyu Wang, Suha Kwak, and Minsu Cho (*equal contribution). 
 
-***
 <img src="./figs/rsa.png" width="100%" height="100%" alt="RSA"></img>
-***
 
 ## Requirements
 
