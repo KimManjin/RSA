@@ -34,9 +34,12 @@ To train RSANet-R50 on SSv1 or SSv2 datasets in the paper, run this command:
 
 ```train
     # For SSv1
-    ./scripts/train_Something_v1.sh RSA_R50_SSV1_16_frames 16 local
+    ./scripts/train_Something_v1.sh <run_name> <num_frames>
+    # example: ./scripts/train_Something_v1.sh RSA_R50_SSV1_16frames 16
+    
     # For SSv2
-    ./scripts/train_Something_v2.sh RSA_R50_SSV2_16_frames 16 local
+    ./scripts/train_Something_v2.sh <run_name> <num_frames>
+    # example: ./scripts/train_Something_v2.sh RSA_R50_SSV2_16frames 16
 ```
 
 
@@ -46,12 +49,12 @@ To evaluate RSANet-R50 on SSv2 dataset in the paper, run:
 
 ```eval
     # For SSv1
-    # Checkpoint path: ./net_runs/RSA_R50_SSV1_16frames/resnet_rgb_model_best.pth.tar
-    ./scripts/test_Something_v1.sh RSA_R50_SSV1_16frames resnet_rgb_model_best.pth.tar 16
+    ./scripts/test_Something_v1.sh <run_name> <ckpt_name> <num_frames>
+    # example: ./scripts/test_Something_v1.sh RSA_R50_SSV1_16frames resnet_rgb_model_best.pth.tar 16
     
     # For SSv2
-    # Checkpoint path: ./net_runs/RSA_R50_SSV2_16frames/resnet_rgb_model_best.pth.tar
-    ./scripts/test_Something_v2.sh RSA_R50_SSV2_16frames resnet_rgb_model_best.pth.tar 16
+    ./scripts/test_Something_v2.sh <run_name> <ckpt_name> <num_frames>
+    # example: ./scripts/test_Something_v2.sh RSA_R50_SSV2_16frames resnet_rgb_model_best.pth.tar 16
 ```
 
 
