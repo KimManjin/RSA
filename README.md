@@ -73,3 +73,8 @@ Our model achieves the following performance on [Something-Something-V1](https:/
 | ------------------ |----------|------------| -------------- |
 | RSANet-R50  |  16      |   54.0 % / 81.1 %  |      66.0 % / 89.9 %       |
 
+## Qualitative Results
+
+***
+<img src="./figs/kernel_visualization_1.png" width="100%" height="100%" alt="kernel_visualization"></img>
+***
