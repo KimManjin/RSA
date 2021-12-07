@@ -1,6 +1,6 @@
 # Relational Self-Attention: What's Missing in Attention for Video Understanding
 
-This repository is the official implementation of "Relational Self-Attention: What's Missing in Attention for Video Understanding" by Manjin Kim, Heeseung Kwon, Chunyu Wang, Suha kwak, and Minsu Cho. 
+This repository is the official implementation of "Relational Self-Attention: What's Missing in Attention for Video Understanding" by Manjin Kim*, Heeseung Kwon*, Chunyu Wang, Suha kwak, and Minsu Cho (* equal contribution). 
 
 ***
 <img src="./figs/rsa.png" width="100%" height="100%" alt="RSA"></img>
@@ -72,6 +72,7 @@ Our model achieves the following performance on [Something-Something-V1](https:/
 | Model name         | # frames |SSv1 Top-1 / Top-5  | SSv2 Top-1 / Top-5 |
 | ------------------ |----------|------------| -------------- |
 | RSANet-R50  |  16      |   54.0 % / 81.1 %  |      66.0 % / 89.9 %       |
+
 
 ## Qualitative Results
 
