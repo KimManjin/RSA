@@ -1,6 +1,6 @@
 # Relational Self-Attention: What's Missing in Attention for Video Understanding
 
-This repository is the official implementation of "Relational Self-Attention: What's Missing in Attention for Video Understanding" by Manjin Kim*, Heeseung Kwon*, Chunyu Wang, Suha Kwak, and Minsu Cho (* equal contribution). 
+This repository is the official implementation of "Relational Self-Attention: What's Missing in Attention for Video Understanding" by Manjin Kim*, Heeseung Kwon*, Chunyu Wang, Suha Kwak, and Minsu Cho (*equal contribution). 
 
 ***
 <img src="./figs/rsa.png" width="100%" height="100%" alt="RSA"></img>
@@ -62,10 +62,10 @@ To evaluate RSANet-R50 on SSv2 dataset in the paper, run:
 
 Our model achieves the following performance on [Something-Something-V1](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1) and [Something-Something-V2](https://paperswithcode.com/sota/action-recognition-in-videos-on-something):
 
-| Model name         | # frames |SSv1 Top-1 / Top-5  | SSv2 Top-1 / Top-5 |
-| ------------------ |----------|------------| -------------- |
-| RSANet-R50  |  16      |   54.0 % / 81.1 % [[logs]](./logs/RSA_R50_SSV1_16frames.log) [[checkpoints]](https://drive.google.com/drive/folders/1kiMGDdQnNtd0YF6s0MTDVRy6IAvyWpZ9?usp=sharing) |      66.0 % / 89.9 % [[logs]](./logs/RSA_R50_SSV2_16frames.log) [[checkpoints]](https://drive.google.com/drive/folders/1duRFSAJEJ1Qkd19tsrug_bBB056XVSgf?usp=sharing) |
-
+| model name         | dataset | # frames |top-1 / top-5| logs | checkpoints|
+| ------------------ |---------|----------|-------------|------|----------|
+| RSANet-R50  |  SSV1 |16      |   54.0 % / 81.1 % | [[log]](./logs/RSA_R50_SSV1_16frames.log) | [[checkpoint]](./net_runs/RSA_R50_SSV1_16frames/resnet_rgb_model_best.pth.tar) |   
+| RSANet-R50  |  SSV2|16      |   66.0 % / 89.9 %  | [[log]](./logs/RSA_R50_SSV2_16frames.log) |[[checkpoint]](./net_runs/RSA_R50_SSV2_16frames/resnet_rgb_model_best.pth.tar) |
 
 
 ## Qualitative Results
