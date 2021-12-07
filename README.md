@@ -62,7 +62,7 @@ To evaluate RSANet-R50 on SSv2 dataset in the paper, run:
 
 Our model achieves the following performance on [Something-Something-V1](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1) and [Something-Something-V2](https://paperswithcode.com/sota/action-recognition-in-videos-on-something):
 
-| model name         | dataset | # frames |top-1 / top-5| logs | checkpoints|
+| model         | dataset | frames |top-1 / top-5| logs | checkpoints|
 | ------------------ |---------|----------|-------------|------|----------|
 | RSANet-R50  |  SSV1 |16      |   54.0 % / 81.1 % | [[log]](./logs/RSA_R50_SSV1_16frames.log) | [[checkpoint]](./net_runs/RSA_R50_SSV1_16frames/resnet_rgb_model_best.pth.tar) |   
 | RSANet-R50  |  SSV2|16      |   66.0 % / 89.9 %  | [[log]](./logs/RSA_R50_SSV2_16frames.log) |[[checkpoint]](./net_runs/RSA_R50_SSV2_16frames/resnet_rgb_model_best.pth.tar) |
