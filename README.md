@@ -55,27 +55,15 @@ To evaluate RSANet-R50 on SSv2 dataset in the paper, run:
 ```
 
 
-## Pre-trained Models
-
-You can download pretrained models here:
-
-- RSANet_R50_SSV1_16frames [[logs]](./logs/RSA_R50_SSV1_16frames.log) [[checkpoints]](https://drive.google.com/drive/folders/1kiMGDdQnNtd0YF6s0MTDVRy6IAvyWpZ9?usp=sharing)
-
-- RSANet_R50_SSV2_16frames [[logs]](./logs/RSA_R50_SSV2_16frames.log) [[checkpoints]](https://drive.google.com/drive/folders/1duRFSAJEJ1Qkd19tsrug_bBB056XVSgf?usp=sharing)
-
-
-
 ## Results
 
 Our model achieves the following performance on [Something-Something-V1](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1) and [Something-Something-V2](https://paperswithcode.com/sota/action-recognition-in-videos-on-something):
 
 | Model name         | # frames |SSv1 Top-1 / Top-5  | SSv2 Top-1 / Top-5 |
 | ------------------ |----------|------------| -------------- |
-| RSANet-R50  |  16      |   54.0 % / 81.1 %  |      66.0 % / 89.9 %       |
+| RSANet-R50  |  16      |   54.0 % / 81.1 % [[logs]](./logs/RSA_R50_SSV1_16frames.log) [[checkpoints]](https://drive.google.com/drive/folders/1kiMGDdQnNtd0YF6s0MTDVRy6IAvyWpZ9?usp=sharing) |      66.0 % / 89.9 %  [[logs]](./logs/RSA_R50_SSV1_16frames.log) [[checkpoints]](https://drive.google.com/drive/folders/1kiMGDdQnNtd0YF6s0MTDVRy6IAvyWpZ9?usp=sharing) |
 
 
 ## Qualitative Results
 
-***
 <img src="./figs/kernel_visualization_1.png" width="100%" height="100%" alt="kernel_visualization"></img>
-***
